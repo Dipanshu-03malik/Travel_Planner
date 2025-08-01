@@ -1,0 +1,30 @@
+# Ignore environment file with API keys
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (if applicable)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore pycache in any subfolders
+**/__pycache__/
+
+# Ignore compiled python extensions
+*.so
